@@ -1,0 +1,18 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "hcc:gui/negative_space"
+    },
+    {
+      "type": "directory",
+      "source": "hcc_entity",
+      "prefix": "entity/"
+    },
+    {
+      "type": "directory",
+      "source": "hcc_model",
+      "prefix": "model/"
+    }
+  ]
+}
