@@ -1,4 +1,6 @@
 scoreboard objectives add hcc.dummy dummy
+scoreboard objectives add hcc.dummy2 dummy
+scoreboard objectives add hcc.frames dummy
 
 scoreboard objectives add hcc.cstick minecraft.used:minecraft.carrot_on_a_stick
 
