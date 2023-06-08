@@ -6,5 +6,8 @@
     },
   "overrides": [
 	{ "predicate": { "custom_model_data": 427000 }, "model": "hcc:entity/falcon/brown/glide" }
+	{ "predicate": { "custom_model_data": 427001 }, "model": "hcc:entity/falcon/brown/dive" }
+	{ "predicate": { "custom_model_data": 427002 }, "model": "hcc:entity/falcon/brown/attack" }
+	{ "predicate": { "custom_model_data": 427003 }, "model": "hcc:entity/falcon/brown/rise" }
   ]
 }
