@@ -1,6 +1,6 @@
-execute if entity @s[tag=!hcc.diving,tag=!hcc.attacking] positioned over motion_blocking_no_leaves positioned ~ ~30 ~ if entity @s[distance=3..] positioned over motion_blocking_no_leaves positioned ~ ~15 ~ if entity @s[distance=..15] at @s run tp ~ ~0.1 ~
-execute if entity @s[tag=!hcc.diving,tag=!hcc.attacking] positioned over motion_blocking_no_leaves positioned ~ ~30 ~ if entity @s[distance=3..] positioned over motion_blocking_no_leaves positioned ~ ~15 ~ unless entity @s[distance=..15] at @s run tp ~ ~-0.1 ~
-execute if entity @s[tag=hcc.rising] positioned over motion_blocking_no_leaves positioned ~ ~30 ~ if entity @s[distance=..3] run function hcc:entity/falcon/idle
+execute if entity @s[tag=!hcc.diving,tag=!hcc.attacking] positioned over world_surface positioned ~ ~30 ~ if entity @s[distance=3..] positioned over world_surface positioned ~ ~15 ~ if entity @s[distance=..15] at @s if block ~ ~1 ~ #hcc:not_solid_liquids if block ~ ~2 ~ #hcc:not_solid_liquids run tp ~ ~0.1 ~
+execute if entity @s[tag=!hcc.diving,tag=!hcc.attacking] positioned over world_surface positioned ~ ~30 ~ if entity @s[distance=3..] positioned over world_surface positioned ~ ~15 ~ unless entity @s[distance=..15] at @s if block ~ ~-1 ~ #hcc:not_solid if block ~ ~-2 ~ #hcc:not_solid run tp ~ ~-0.1 ~
+execute if entity @s[tag=hcc.rising] positioned over world_surface positioned ~ ~30 ~ if entity @s[distance=..3] run function hcc:entity/falcon/idle
 
 execute if entity @s[tag=hcc.left,tag=!hcc.diving,tag=!hcc.attacking,tag=!hcc.rising,tag=!hcc.targetting] at @s run tp @s ~ ~ ~ ~-2 ~
 execute if entity @s[tag=hcc.right,tag=!hcc.diving,tag=!hcc.attacking,tag=!hcc.rising,tag=!hcc.targetting] at @s run tp @s ~ ~ ~ ~2 ~
