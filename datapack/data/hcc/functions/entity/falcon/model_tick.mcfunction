@@ -1,0 +1,1 @@
+execute unless entity @e[type=fox,tag=hcc.falcon,distance=..1] run kill @s

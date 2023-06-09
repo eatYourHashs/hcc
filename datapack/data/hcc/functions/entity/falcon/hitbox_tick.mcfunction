@@ -1,1 +1,5 @@
+execute if entity @s[tag=!hcc.diving,tag=!hcc.attacking] positioned over motion_blocking_no_leaves positioned ~ ~20 ~ if entity @s[distance=3..] positioned over motion_blocking_no_leaves positioned ~ ~10 ~ if entity @s[distance=..10] at @s run tp ~ ~0.5 ~
+execute if entity @s[tag=!hcc.diving,tag=!hcc.attacking] positioned over motion_blocking_no_leaves positioned ~ ~20 ~ if entity @s[distance=3..] positioned over motion_blocking_no_leaves positioned ~ ~10 ~ unless entity @s[distance=..10] at @s run tp ~ ~-0.5 ~
+execute if entity @s[tag=hcc.rising] positioned over motion_blocking_no_leaves positioned ~ ~20 ~ if entity @s[distance=..3] run function hcc:entity/falcon/idle
+
 execute if entity @s[tag=hcc.brown_falcon] run tp @e[limit=1,type=item_display,tag=hcc.falcon_model,tag=hcc.brown_falcon,sort=nearest] ~ ~ ~ ~ ~
