@@ -4,6 +4,9 @@ scoreboard objectives add hcc.frames dummy
 
 scoreboard objectives add hcc.cstick minecraft.used:minecraft.carrot_on_a_stick
 
+scoreboard players set $cons.rng_a hcc.dummy 1103515245
+execute store result score $cons.rng_seed hcc.dummy run data get entity @e[limit=1,sort=random] UUID[0]
+
 scoreboard players set $cons.-100 hcc.dummy -100
 scoreboard players set $cons.-25 hcc.dummy -25
 scoreboard players set $cons.-10 hcc.dummy -10
