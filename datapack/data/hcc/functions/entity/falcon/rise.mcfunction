@@ -4,4 +4,4 @@ tag @s remove hcc.diving
 tag @s remove hcc.attacking
 scoreboard players set @s hcc.dummy 0
 scoreboard players reset @s hcc.target_uuid1
-tp @s ~ ~ ~ ~ 0
+execute at @s run tp @s ~ ~ ~ ~ 0
