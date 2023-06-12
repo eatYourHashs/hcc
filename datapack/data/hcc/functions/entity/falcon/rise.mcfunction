@@ -3,3 +3,4 @@ tag @s add hcc.rising
 tag @s remove hcc.diving
 tag @s remove hcc.attacking
 scoreboard players set @s hcc.dummy 0
+scoreboard players reset @s hcc.target_uuid1
