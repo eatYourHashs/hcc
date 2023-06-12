@@ -1,6 +1,5 @@
-execute if entity @s[tag=hcc.brown_falcon] run data modify entity @s HandItems[0].tag.CustomModelData set value 427000
-scoreboard players set @s hcc.frames 60
-function hcc:entity/all/init_anim
+execute as @e[limit=1,type=item_display,tag=hcc.falcon_model,sort=nearest] run function hcc:entity/falcon/idle_anim
 tag @s remove hcc.rising
 tag @s remove hcc.diving
 tag @s remove hcc.attacking
+scoreboard players reset @s hcc.target_uuid1

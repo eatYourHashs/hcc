@@ -1,0 +1,1 @@
+execute unless entity @s[tag=hcc.processed] run function hcc:entity/player/processing
