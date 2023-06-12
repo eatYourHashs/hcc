@@ -4,4 +4,4 @@ tag @s remove hcc.diving
 tag @s remove hcc.attacking
 scoreboard players set @s hcc.dummy 0
 scoreboard players reset @s hcc.target_uuid1
-data modify entity @s Rotation[0] set value 0.0f
+tp @s ~ ~ ~ ~ 0
