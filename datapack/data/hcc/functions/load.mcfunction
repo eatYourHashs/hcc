@@ -4,6 +4,7 @@ scoreboard objectives add hcc.frames dummy
 scoreboard objectives add hcc.tamer_uuid1 dummy
 scoreboard objectives add hcc.target_uuid1 dummy
 scoreboard objectives add hcc.uuid1 dummy
+scoreboard objectives add hcc.spawning_timer dummy
 
 scoreboard objectives add hcc.cstick minecraft.used:minecraft.carrot_on_a_stick
 
