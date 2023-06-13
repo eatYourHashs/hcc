@@ -9,6 +9,11 @@
 	{ "predicate": { "custom_model_data": 427001 }, "model": "hcc:entity/falcon/brown/dive" },
 	{ "predicate": { "custom_model_data": 427002 }, "model": "hcc:entity/falcon/brown/attack" },
 	{ "predicate": { "custom_model_data": 427003 }, "model": "hcc:entity/falcon/brown/rise" },
-	{ "predicate": { "custom_model_data": 427004 }, "model": "hcc:entity/falcon/brown/prep_dive" }
+	{ "predicate": { "custom_model_data": 427004 }, "model": "hcc:entity/falcon/brown/prep_dive" },
+  { "predicate": { "custom_model_data": 427005 }, "model": "hcc:entity/falcon/grey/glide" },
+	{ "predicate": { "custom_model_data": 427006 }, "model": "hcc:entity/falcon/grey/dive" },
+	{ "predicate": { "custom_model_data": 427007 }, "model": "hcc:entity/falcon/grey/attack" },
+	{ "predicate": { "custom_model_data": 427008 }, "model": "hcc:entity/falcon/grey/rise" },
+	{ "predicate": { "custom_model_data": 427009 }, "model": "hcc:entity/falcon/grey/prep_dive" }
   ]
 }

@@ -14,7 +14,7 @@ execute if entity @s[tag=!hcc.diving,tag=!hcc.attacking,tag=!hcc.rising] on atta
 execute if entity @s[tag=!hcc.diving,tag=!hcc.attacking,tag=!hcc.rising] if entity @s[tag=hcc.tamed] as @p[tag=hcc.tamer] on attacker run tag @s add hcc.target
 execute if entity @s[tag=!hcc.diving,tag=!hcc.attacking,tag=!hcc.rising] if entity @s[tag=hcc.tamed] as @p[tag=hcc.tamer] on target run tag @s add hcc.target
 execute if entity @s[tag=!hcc.diving,tag=!hcc.attacking,tag=!hcc.rising] if entity @s[tag=hcc.tamed] at @p[tag=hcc.tamer] positioned over world_surface positioned ~ ~30 ~ unless entity @s[distance=..64] run tp @s ~ ~ ~
-execute if entity @s[tag=!hcc.diving,tag=!hcc.attacking,tag=!hcc.rising] if entity @s[tag=hcc.tamed] at @p[tag=hcc.tamer] positioned over world_surface positioned ~ ~30 ~ unless entity @s[distance=..32] facing ~ ~ ~ positioned as @s run tp @s ~ ~ ~ ~ ~
+execute if entity @s[tag=!hcc.diving,tag=!hcc.attacking,tag=!hcc.rising] if entity @s[tag=hcc.tamed] at @p[tag=hcc.tamer] positioned over world_surface positioned ~ ~30 ~ unless entity @s[distance=..32] positioned as @s facing entity @p[tag=hcc.tamer] feet run tp @s ~ ~ ~ ~ 0
 execute if entity @s[tag=!hcc.diving,tag=!hcc.attacking,tag=!hcc.rising] facing entity @e[type=!#hcc:never_targetted,tag=hcc.target,sort=random,limit=1] feet run function hcc:entity/falcon/sight_cast
 tag @e[type=!#hcc:never_targetted,tag=hcc.target] remove hcc.target
 tag @a remove hcc.tamer
