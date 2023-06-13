@@ -1,0 +1,7 @@
+{
+  "entity.falcon.cry": {
+    "sounds": [
+      "hcc:entity/falcon/cry"
+    ]
+  }
+}

@@ -35,3 +35,5 @@ tag @e[type=!#hcc:never_targetted] remove hcc.attack_target
 execute if entity @s[tag=hcc.brown_falcon] run tp @e[limit=1,type=item_display,tag=hcc.falcon_model,tag=hcc.brown_falcon,sort=nearest] ~ ~ ~ ~ ~
 execute if entity @s[tag=hcc.grey_falcon] run tp @e[limit=1,type=item_display,tag=hcc.falcon_model,tag=hcc.grey_falcon,sort=nearest] ~ ~ ~ ~ ~
 scoreboard players remove @s hcc.dummy2 1
+
+execute if entity @s[nbt={HurtTime:9s}] run function hcc:entity/falcon/hurt
