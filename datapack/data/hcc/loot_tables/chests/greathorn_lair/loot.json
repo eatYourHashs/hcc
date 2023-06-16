@@ -13,7 +13,7 @@
               "effects": [
                 {
                   "type": "minecraft:absorption",
-                  "duration": 200
+                  "duration": 15
                 }
               ]
             }
