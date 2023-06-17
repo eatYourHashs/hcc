@@ -1,0 +1,1 @@
+execute unless entity @e[type=slime,tag=hcc.greathorn_hitbox,distance=..3] run kill @s

@@ -15,6 +15,8 @@
 	{ "predicate": { "custom_model_data": 427007 }, "model": "hcc:entity/falcon/grey/attack" },
 	{ "predicate": { "custom_model_data": 427008 }, "model": "hcc:entity/falcon/grey/rise" },
 	{ "predicate": { "custom_model_data": 427009 }, "model": "hcc:entity/falcon/grey/prep_dive" },
-	{ "predicate": { "custom_model_data": 427010 }, "model": "hcc:entity/greathorn/idle" }
+	{ "predicate": { "custom_model_data": 427010 }, "model": "hcc:entity/greathorn/idle" },
+	{ "predicate": { "custom_model_data": 427011 }, "model": "hcc:entity/greathorn/alert" },
+	{ "predicate": { "custom_model_data": 427012 }, "model": "hcc:entity/greathorn/roar" }
   ]
 }
