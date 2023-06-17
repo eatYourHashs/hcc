@@ -1,6 +1,6 @@
 scoreboard players add @s hcc.dummy 1
 
-execute if score @s[tag=hcc.idle] hcc.dummy matches 240.. if entity @a[distance=..24,gamemode=!spectator] positioned ~ ~3 ~ facing entity @r[distance=..24,gamemode=!spectator] feet run function hcc:entity/greathorn/attempt_detect
+execute if score @s[tag=hcc.idle] hcc.dummy matches 240.. if entity @a[distance=..24,gamemode=!spectator] positioned ~ ~3 ~ facing entity @p[distance=..24,gamemode=!spectator] feet run function hcc:entity/greathorn/attempt_detect
 
 execute if score @s[tag=hcc.alert] hcc.dummy matches 120.. run function hcc:entity/greathorn/idle
 
