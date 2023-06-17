@@ -3,3 +3,4 @@ tag @s add hcc.idle
 tag @s remove hcc.target_roar
 tag @s remove hcc.alert
 scoreboard players set @s hcc.dummy 0
+scoreboard players reset @s hcc.target_uuid1
