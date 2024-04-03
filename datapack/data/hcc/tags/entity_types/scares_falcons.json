@@ -3,6 +3,12 @@
     "values": [
         "minecraft:player",
         "minecraft:villager",
-        "minecraft:armor_stand"
+        "minecraft:vindicator",
+        "minecraft:pillager",
+        "minecraft:evoker",
+        "minecraft:armor_stand",
+        "minecraft:snow_golem",
+        "minecraft:iron_golem",
+        "minecraft:wither"
     ]
 }
