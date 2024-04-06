@@ -3,5 +3,25 @@
     "sounds": [
       "hcc:entity/falcon/cry"
     ]
+  },
+  "entity.greathorn.roar": {
+    "sounds": [
+      "hcc:entity/greathorn/roar"
+    ]
+  },
+  "entity.greathorn.sniff": {
+    "sounds": [
+      "hcc:entity/greathorn/sniff"
+    ]
+  },
+  "entity.greathorn.bash": {
+    "sounds": [
+      "hcc:entity/greathorn/bash"
+    ]
+  },
+  "entity.greathorn.pre_bash": {
+    "sounds": [
+      "hcc:entity/greathorn/pre_bash"
+    ]
   }
 }
