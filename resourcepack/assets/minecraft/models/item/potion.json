@@ -19,6 +19,10 @@
 	{ "predicate": { "custom_model_data": 427011 }, "model": "hcc:entity/greathorn/alert" },
 	{ "predicate": { "custom_model_data": 427012 }, "model": "hcc:entity/greathorn/roar" },
 	{ "predicate": { "custom_model_data": 427013 }, "model": "hcc:entity/greathorn/bash" },
-	{ "predicate": { "custom_model_data": 427014 }, "model": "hcc:entity/greathorn/walk" }
+	{ "predicate": { "custom_model_data": 427014 }, "model": "hcc:entity/greathorn/walk" },
+	{ "predicate": { "custom_model_data": 427015 }, "model": "hcc:entity/greathorn/die" },
+	{ "predicate": { "custom_model_data": 427016 }, "model": "hcc:entity/greathorn/init_charge" },
+	{ "predicate": { "custom_model_data": 427017 }, "model": "hcc:entity/greathorn/charge" },
+	{ "predicate": { "custom_model_data": 427018 }, "model": "hcc:entity/greathorn/end_charge" }
   ]
 }

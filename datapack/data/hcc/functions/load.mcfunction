@@ -58,3 +58,7 @@ scoreboard players set $cons.999 hcc.dummy 999
 schedule function hcc:5tick 5t replace
 schedule function hcc:20tick 20t replace
 schedule function hcc:100tick 100t replace
+
+bossbar add hcc:greathorn "Greathorn"
+bossbar set hcc:greathorn color white
+bossbar set hcc:greathorn max 300

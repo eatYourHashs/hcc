@@ -3,6 +3,9 @@ tag @s add hcc.alert
 tag @s remove hcc.idle
 tag @s remove hcc.target_roar
 tag @s remove hcc.attack_roar
+tag @s remove hcc.charge
+tag @s remove hcc.init_charge
+tag @s remove hcc.end_charge
 tag @s remove hcc.walk
 tag @s remove hcc.bash
 scoreboard players set @s hcc.dummy 0

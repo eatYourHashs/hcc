@@ -23,5 +23,25 @@
     "sounds": [
       "hcc:entity/greathorn/pre_bash"
     ]
+  },
+  "entity.greathorn.death": {
+    "sounds": [
+      "hcc:entity/greathorn/death"
+    ]
+  },
+  "entity.greathorn.hurt": {
+    "sounds": [
+      "hcc:entity/greathorn/hurt"
+    ]
+  },
+  "entity.greathorn.pre_charge": {
+    "sounds": [
+      "hcc:entity/greathorn/pre_charge"
+    ]
+  },
+  "entity.greathorn.post_charge": {
+    "sounds": [
+      "hcc:entity/greathorn/post_charge"
+    ]
   }
 }

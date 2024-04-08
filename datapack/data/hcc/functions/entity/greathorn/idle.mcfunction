@@ -2,6 +2,9 @@ execute as @e[limit=1,type=item_display,tag=hcc.greathorn_model,sort=nearest] ru
 tag @s add hcc.idle
 tag @s remove hcc.target_roar
 tag @s remove hcc.attack_roar
+tag @s remove hcc.charge
+tag @s remove hcc.init_charge
+tag @s remove hcc.end_charge
 tag @s remove hcc.bash
 tag @s remove hcc.walk
 tag @s remove hcc.alert
