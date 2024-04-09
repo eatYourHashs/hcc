@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "hcc:greathorn_lair",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 703794678,
+    "spacing": 35,
+    "separation": 14
+  }
+}

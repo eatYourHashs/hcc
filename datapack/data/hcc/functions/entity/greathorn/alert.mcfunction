@@ -11,4 +11,4 @@ tag @s remove hcc.bash
 scoreboard players set @s hcc.dummy 0
 scoreboard players reset @s hcc.target_uuid1
 tag @a remove hcc.target
-execute at @s facing entity @p[gamemode=!spectator,distance=..32] feet run tp @s ~ ~ ~ ~ 0
+execute at @s facing entity @p[gamemode=!spectator,gamemode=!creative,distance=..32] feet run tp @s ~ ~ ~ ~ 0

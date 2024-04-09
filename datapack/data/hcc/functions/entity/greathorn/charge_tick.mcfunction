@@ -7,7 +7,7 @@ scoreboard players set $temp.x hcc.dummy 0
 scoreboard players set $temp.y hcc.dummy 1
 scoreboard players set $temp.z hcc.dummy 1
 tp ^ ^ ^0.3
-execute positioned ~ ~1 ~ as @a[distance=..4,gamemode=!spectator] run damage @s 10 minecraft:mob_attack by @e[type=ravager,tag=hcc.greathorn_hitbox,limit=1,sort=nearest]
+execute positioned ~ ~1 ~ as @a[distance=..4,gamemode=!spectator,gamemode=!creative] run damage @s 10 minecraft:mob_attack by @e[type=ravager,tag=hcc.greathorn_hitbox,limit=1,sort=nearest]
 execute positioned ~-1.5 ~0.5 ~-1.5 run function hcc:entity/greathorn/charge_block_check
 #execute at @s if blocks ~-1.5 ~-1 ~-1.5 ~1.5 ~-1 ~1.5 ~ 254 ~ all run tp @s ~ ~-1 ~
 scoreboard players add @s hcc.dummy2 1
