@@ -1,0 +1,49 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "translate": "item.hcc.bestial_war_horn.lore",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:max_damage": 20
+                }
+              },
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 427000
+              },
+              {
+                "function": "minecraft:set_name",
+                "target": "item_name",
+                "name": {
+                  "translate": "item.hcc.bestial_war_horn"
+                }
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{hcc_dat:{bestial_war_horn:1b}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

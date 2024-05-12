@@ -1,5 +1,5 @@
 particle minecraft:crit ~ ~1.5 ~ 1.8 1.4 1.8 0.9 40
-particle minecraft:dust_pillar snow ~ ~1.8 ~ 1 1 1 0.3 20
+particle minecraft:dust_pillar{block_state:{Name:"minecraft:snow"}} ~ ~1.8 ~ 1 1 1 0.3 20
 execute if entity @a[tag=hcc.target,distance=..16] run tag @s add hcc.near
 execute if entity @s[tag=hcc.near] unless entity @a[tag=hcc.target,distance=..16] run function hcc:entity/greathorn/end_charge
 execute if score @s hcc.dummy matches 100.. run function hcc:entity/greathorn/end_charge

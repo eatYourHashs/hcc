@@ -1,4 +1,6 @@
 {
     "death.attack.greathorn_roar": "%s was sundered by %s",
-    "death.attack.greathorn_roar.item": "%s was sundered by %s using %s"
+    "death.attack.greathorn_roar.item": "%s was sundered by %s using %s",
+    "item.hcc.bestial_war_horn": "Bestial War Horn",
+    "item.hcc.bestial_war_horn.lore": "Sunder your enemies with the Greathorn's might!"
 }
